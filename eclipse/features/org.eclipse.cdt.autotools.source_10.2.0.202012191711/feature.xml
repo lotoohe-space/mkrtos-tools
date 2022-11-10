@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.cdt.autotools.source" version="10.2.0.202012191711" plugin="org.eclipse.cdt.autotools.ui" label="%featureName" provider-name="%provider">
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.cdt.autotools.core.source" version="2.1.100.202010121414" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.cdt.autotools.ui.source" version="2.1.100.202010121414" download-size="0" install-size="0" unpack="false"/>
+</feature>

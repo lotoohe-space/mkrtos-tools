@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.docker.launcher"
+      label="%featureName"
+      version="10.2.0.202012191711"
+      provider-name="%provider">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.linuxtools.docker.core"/>
+      <import plugin="org.eclipse.linuxtools.docker.ui"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.cdt.docker.launcher"
+         download-size="210"
+         install-size="450"
+         version="1.3.100.202011201553"
+         unpack="false"/>
+
+</feature>

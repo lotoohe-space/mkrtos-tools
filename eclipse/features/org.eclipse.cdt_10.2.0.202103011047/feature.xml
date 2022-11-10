@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt"
+      label="%featureName"
+      version="10.2.0.202103011047"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.cdt.platform"
+         version="10.2.0.202103011047"/>
+
+   <includes
+         id="org.eclipse.cdt.gnu.build"
+         version="10.2.0.202012191711"/>
+
+   <includes
+         id="org.eclipse.cdt.gdb"
+         version="10.2.0.202012191711"/>
+
+   <includes
+         id="org.eclipse.cdt.gnu.debug"
+         version="10.2.0.202012191801"/>
+
+   <includes
+         id="org.eclipse.cdt.gnu.dsf"
+         version="10.2.0.202102231601"/>
+
+</feature>

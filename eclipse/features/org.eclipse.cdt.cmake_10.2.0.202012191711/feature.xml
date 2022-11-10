@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.cmake"
+      label="%featureName"
+      version="10.2.0.202012191711"
+      provider-name="%providerName"
+      plugin="org.eclipse.cdt.cmake.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cdt.cmake.core"
+         download-size="80"
+         install-size="156"
+         version="1.4.0.202012011910"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.cmake.ui"
+         download-size="53"
+         install-size="94"
+         version="1.3.100.202011142017"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.cmake.is.core"
+         download-size="101"
+         install-size="195"
+         version="1.0.100.202011142017"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.cmake.is.core.doc"
+         download-size="14"
+         install-size="21"
+         version="1.0.100.202011271905"/>
+
+   <plugin
+         id="org.eclipse.cdt.cmake.is.core.ui"
+         download-size="17"
+         install-size="26"
+         version="1.0.100.202010062020"
+         unpack="false"/>
+
+</feature>

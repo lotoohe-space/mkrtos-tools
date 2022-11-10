@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.visualizer"
+      label="%featureName"
+      version="10.2.0.202012191711"
+      provider-name="%providerName"
+      plugin="org.eclipse.cdt.visualizer.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.cdt.visualizer.ui"
+         download-size="90"
+         install-size="174"
+         version="1.4.100.202011181638"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.visualizer.core"
+         download-size="17"
+         install-size="28"
+         version="1.1.100.202011181638"
+         unpack="false"/>
+
+</feature>

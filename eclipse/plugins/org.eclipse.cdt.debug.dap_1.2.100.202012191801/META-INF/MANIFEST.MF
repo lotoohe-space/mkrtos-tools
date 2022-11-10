@@ -1,0 +1,1040 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.eclipse.cdt.debug.dap
+Bundle-SymbolicName: org.eclipse.cdt.debug.dap;singleton:=true
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.jface.text,org.ec
+ lipse.ui,org.eclipse.lsp4j.jsonrpc,org.eclipse.cdt.launch,org.eclipse
+ .lsp4e.debug;bundle-version="0.12.0",org.eclipse.debug.ui,org.eclipse
+ .lsp4j.debug;bundle-version="0.9.0",org.eclipse.lsp4j.jsonrpc.debug,o
+ rg.eclipse.xtext.xbase.lib,org.eclipse.cdt.dsf.gdb;bundle-version="5.
+ 7.200",org.eclipse.cdt.debug.ui
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/cdt/or
+ g.eclipse.cdt.git;path="debug/org.eclipse.cdt.debug.dap";commitId=687
+ 4b7e0130678c4d151eb8f3b38237e046f1694
+Bundle-Vendor: %Bundle-Vendor
+Export-Package: org.eclipse.cdt.debug.dap
+Bundle-Name: %Bundle-Name
+Bundle-Version: 1.2.100.202012191801
+Bundle-Activator: org.eclipse.cdt.debug.dap.Activator
+Build-Jdk-Spec: 11
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+
+Name: plugin.xml
+SHA-256-Digest: /buK5XmCVdTDUVYOXjFMSbva9/LUz0v5B0delXLb29c=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/pty.target.mk
+SHA-256-Digest: 0MT8Cbe08fhk+a3KUbRd/xhusR+Dioio1XelrtWCVlY=
+
+Name: debug-servers/node_modules/minimist/test/parse_modified.js
+SHA-256-Digest: gcdWTmwi3WV1dX5VEX7RU0kwtjzhKSTyn4xZk2UzrtU=
+
+Name: org/eclipse/cdt/debug/dap/DapDisassemblyBackendFactory.class
+SHA-256-Digest: XhtRFjIbsaf/TnlICdl2MSvmkFkwh/A7iCASe2ARoZA=
+
+Name: debug-servers/node_modules/node-addon-api/napi-inl.h
+SHA-256-Digest: RaET8Tbnkbx7YSmb/NFdXHq3URB4pQ2XZOV4eIPs89Y=
+
+Name: debug-servers/node_modules/vscode-debugprotocol/package.json
+SHA-256-Digest: QP7+KjghVVnLuygEawnZxHWtLh6oH6KJCSCEDNOqsn8=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/stoppedEvent.js
+SHA-256-Digest: 5I6UV1g5sC8tCnD8Tq2GqMnw/d55pR4QnWvT6e2PKK8=
+
+Name: debug-servers/node_modules/node-addon-api/doc/generator.md
+SHA-256-Digest: m+c+feHXc39Oshbd65w04flZFCqFkb67P0ZZK2TYyjI=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/breakpoints.spec.js
+SHA-256-Digest: FhgVuZK3yoT47rFKetJXMzQ1CkMGQz8XQ9lESjkWk9E=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/target.js
+SHA-256-Digest: APqlJQFZ6PFl7Grac3BSbA/6vk7WPqeibAIqPrSZlYU=
+
+Name: debug-servers/node_modules/node-addon-api/appveyor.yml
+SHA-256-Digest: fIQ68FlzkLdzH9vnQPh1EBlEZ+Kc2W9HnQrY5CKYUpY=
+
+Name: debug-servers/node_modules/mkdirp/test/chmod.js
+SHA-256-Digest: lEMuXfxMZ8NjtXavd3yg89apdE2Wfewh+KoFZO9cOVk=
+
+Name: about.ini
+SHA-256-Digest: 14n9t5O3yPX1FlE73CB48zZeQhI+ilXZ5ihMMZ5WQNk=
+
+Name: debug-servers/node_modules/minimist/.travis.yml
+SHA-256-Digest: m5oszi2LKIQ6GhBkf4IwDIQDzN4mjfW2q8bDSeUWezQ=
+
+Name: debug-servers/node_modules/node-addon-api/doc/escapable_handle_s
+ cope.md
+SHA-256-Digest: 22R5mjthWv8BfEPtoCG7N6E3c4C0Xw8BO/vtOnBczb0=
+
+Name: debug-servers/node_modules/node-addon-api/src/node_api.cc
+SHA-256-Digest: rBMHNAfUbRwCETGu98r4kTxaoaIwziBGswz40WFQils=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/CONTRIBUTING.md
+SHA-256-Digest: ZX9ofjrBXgM9gxZAOfPzxU32C4rC5mPHh2JYaBDPNU8=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/logger.js
+SHA-256-Digest: GpEDvKgCuRq0Eqgq6CEMrFWtlfVNzUJNKOg0ITRdQ/U=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/messages.d.ts
+SHA-256-Digest: Y5fPA256WJGEK8hlAVXu8Qgwsk3CmJ7i2nXaHsARib0=
+
+Name: debug-servers/node_modules/node-addon-api/CODE_OF_CONDUCT.md
+SHA-256-Digest: THcSIruC8r19Kxt4op6XtiJE0ZjAZagV/yxJ9ZwU/oQ=
+
+Name: debug-servers/node_modules/node-addon-api/doc/typed_array_of.md
+SHA-256-Digest: mRmWw7pqiVsnhZhk7IyiiPSUf4mUKc5C/+FRHKQ/M8c=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/config.gypi
+SHA-256-Digest: 4k5cdiMwoZ1JphEsNOjMJXSQ7baREO8ROvRW+M5KKSs=
+
+Name: debug-servers/node_modules/minimist/test/long.js
+SHA-256-Digest: wuwPwu7y36F7gcOgf4U6VJO4iAXxwtZ0O/usOaTdZqw=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/Release/node-ad
+ don-api/src/nothing.a
+SHA-256-Digest: N5HW4k2poDRjqbybbkhYVWsJ5MS/czpXZATdro726sI=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/Release/obj.tar
+ get/pty/src/native/pty.o
+SHA-256-Digest: kWK6nfGdrxhj9SVViX7XbzD0UR5LKZ0pLyzcbpyotx0=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/main.d.ts
+SHA-256-Digest: WJEbcG4E9GxPs3Za0FCII9lWnfGlH5FufGDY5Fem9c4=
+
+Name: debug-servers/node_modules/node-addon-api/doc/conversion-tool.md
+SHA-256-Digest: z9AMEC3fPqgMCpZYXlfZkxCQmEbKI9XVi+Jhg++xLnc=
+
+Name: org/eclipse/cdt/debug/dap/PreferenceInitializer.class
+SHA-256-Digest: AJZT/5KacrBJxg8kW68i8qwWOZQPtYEYy2GJexd459Y=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/native/pty.js
+SHA-256-Digest: Yx6XD7+Aj/+pHe56VHaFNGV4hGq1ynsP+A6vG+E9evg=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/logger.d.ts
+SHA-256-Digest: msB1dw0ZwJzOkpqzCpuaRCaeV9foYQks/OR3aqPVCOw=
+
+Name: debug-servers/node_modules/node-addon-api/doc/version_management
+ .md
+SHA-256-Digest: sIFeO9k6MBPOtEECvn0o56D9PEm4qYAbmio99dESRGc=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/data.js
+SHA-256-Digest: tMJZDsdsTxu8ZjPeAON6m/1T/ljelj9MDQMKxkmdsOg=
+
+Name: debug-servers/node_modules/node-addon-api/doc/handle_scope.md
+SHA-256-Digest: 1RVlOXWZ//2+Hi9SFFIIT3OSvDE65ejEDLa55ppGZgY=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/stack.d.ts
+SHA-256-Digest: Lh66KYX65iR+am0lKPBrXniWXglq9ot7oZ7nl0VswEA=
+
+Name: debug-servers/node_modules/mkdirp/LICENSE
+SHA-256-Digest: BZkcLo8HC2nsW2VsLBL9B80BU90VfTmwULgq9ZsxmgE=
+
+Name: debug-servers/node_modules/node-addon-api/doc/promises.md
+SHA-256-Digest: XX5vTr9wG+1yTKGWaaxbbqTDdFPkizqvxPIkPVe7Yvk=
+
+Name: debug-servers/node_modules/minimist/test/dotted.js
+SHA-256-Digest: u8xpm2OSsNeSFgD2T203uAwX+MdtU5p5aMOKemqIPjg=
+
+Name: debug-servers/node_modules/node-addon-api/tools/conversion.js
+SHA-256-Digest: axOW5pDjTDLaFL44BtaSPXN97JUvlxT12sEZD1gPzEU=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/target.d.ts
+SHA-256-Digest: blx7cL1UjqnUqd4cUfruA8h2NpRoEdtsRx06l4jN4Dg=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/thread.js.map
+SHA-256-Digest: CSy6ovgGmOK0SviYNcZ9jyC6NIj961L6HaReG0ZWkUo=
+
+Name: debug-servers/node_modules/vscode-debugadapter/package.json
+SHA-256-Digest: fSB7hKFi8QAS8hX4e65f6tmMQzwk/eaFV5VJ0kGiTbY=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/Release/.deps/R
+ elease/obj.target/pty.node.d
+SHA-256-Digest: +PPAdOaLOzV6jeD4rLXpp2UPBpW+0IMIY783vjjJOi4=
+
+Name: debug-servers/node_modules/vscode-debugprotocol/lib/debugProtoco
+ l.d.ts
+SHA-256-Digest: piXa6s+DmiVIyXfoHc0JaYP2T/kKdB7s4qRSz+jk8mc=
+
+Name: about.mappings
+SHA-256-Digest: +3Walh23gBGDUwdFwxJvZ4eYjVFyQ4CvDn2fFTKK4NM=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/attachRemote.spec.js.map
+SHA-256-Digest: ICHcVxulGreWgkDWc6NFEQXKioHueYkA5w3bjPAynPU=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/functionBreakpoints.spec.js
+SHA-256-Digest: wrFBBeYH7Cper+d0HyZzLHs5KNzBng1tS4AFycPcnFo=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/vars_cpp.spec.d.ts
+SHA-256-Digest: yKEMh6i8w6xLKsFBcz9AfvdHAWmJMfwlgbAX63dwrWs=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/loggingDebugS
+ ession.js
+SHA-256-Digest: XXm3qWaKiJ60HCyzOUDJwuit9Vp8g8RxYQDdnGUAJKk=
+
+Name: org/eclipse/cdt/debug/dap/Messages.class
+SHA-256-Digest: w2cHLLny7U0npKL8t6f1it6kJmJx8fhH9PVYFlbKjZw=
+
+Name: org/eclipse/cdt/debug/dap/CDTDebugProtocol.class
+SHA-256-Digest: 0QkKwy85MjyBNREgJ1SgSSxI/pmTGZhiP4sDCG7HXHM=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/index.js.map
+SHA-256-Digest: PszsPEEq6imbKTrZY+XLXXTs7qOWbMT4pRmbCUYnFEY=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/binding.gyp
+SHA-256-Digest: R4X5OvHNRusBxOFognG4VPiKkv/4VbV3d/vf+Mgm3YY=
+
+Name: debug-servers/node_modules/minimist/test/parse.js
+SHA-256-Digest: BsWG5OeI+PKi8AyZTCKQE/SeRlIiTT3DE2u0d3bVbNk=
+
+Name: debug-servers/node_modules/vscode-debugadapter/README.md
+SHA-256-Digest: rCzr6PDpSf/fM24OgInoGF4ku8ZG6Xu53NkC/enkS/4=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/breakpoint.d.
+ ts
+SHA-256-Digest: ZxbiyuOJC6bPk79GA9u6f3CDtSuUuxaPlVx57F/iCnk=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/stoppedEvent.js.
+ map
+SHA-256-Digest: 2YPrrlLxmZtI/dde/gEZlMwbt6nsHlEFbNHnIiR2uNk=
+
+Name: debug-servers/node_modules/node-addon-api/src/node_api_types.h
+SHA-256-Digest: uSpqhSP5XTS0Wc5ehZP2DexYbQJLQWXrY2enXM4h8to=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/evaluate.spec.d.ts
+SHA-256-Digest: qm5YyPfiEkp/LuMy015OSX9W+WvxrReBctEHX1rjfX4=
+
+Name: debug-servers/node_modules/node-addon-api/src/util-inl.h
+SHA-256-Digest: nn1cYyTeiufJ/KewNBA3UcxOVHbnAev4j0/Cnz6H9s8=
+
+Name: org/eclipse/cdt/debug/dap/CDTDebugProtocol$MemoryRequestArgument
+ s.class
+SHA-256-Digest: 7dc0AJZ7IVEyNGYoTMJ3YmFAM7EVK/Rsyx8xEDbJlNo=
+
+Name: debug-servers/node_modules/node-addon-api/doc/bigint.md
+SHA-256-Digest: CjfMxyv8HoDGgpYgyOW738WI4J2Nl6uUTP14ZS3QEAo=
+
+Name: debug-servers/node_modules/node-addon-api/doc/memory_management.
+ md
+SHA-256-Digest: ckSn8kXW8u1U7SDggW1vu1LENIChSWbfY0sy0VbUQL8=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/GDBBackend.spec.d.ts
+SHA-256-Digest: rBx09AC9UE/IDgYDow6CAyGFb6Xc9QLEmfqvW+N69D4=
+
+Name: debug-servers/node_modules/minimist/test/whitespace.js
+SHA-256-Digest: w+PhSqkDDCA61BAwWW7WoZWLyFUVYIZovIDPt5bBSYw=
+
+Name: debug-servers/node_modules/node-addon-api/CONTRIBUTING.md
+SHA-256-Digest: e8Z5xrCCfV+QTnu+g4PfEWrypHDBm4yh+5+ECicRV+I=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/protocol.d.ts
+SHA-256-Digest: fV1K4YY9vZ0UfTd7iVPjQ898Pu7zPLFDwkOQXO5f6+M=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/stop.spec.js
+SHA-256-Digest: lqBcZpXiUJRju5/rvcRzuKCBI/RzfUIkdXle0jpD0j4=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/diassemble.spec.d.ts
+SHA-256-Digest: s6ecRNYGRURmbYZ5rYTI0xP+sMqYFDz1aX1ertnSpmc=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/GDBTargetDebugSe
+ ssion.js.map
+SHA-256-Digest: aY1dBBwFA50qdl71iKZwjUZE5clHU9/8tmaE8lSiFNw=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/debugClient.js
+SHA-256-Digest: 4PpanWhynAeRMONdtw4qZLg9p5pKdZkxRo6Kx91oT3I=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/exec.js
+SHA-256-Digest: +0vl0YdxpJ32TCGx3BUpnRIuuOeqQt2kX16H2VKpAAQ=
+
+Name: debug-servers/node_modules/node-addon-api/tools/check-napi.js
+SHA-256-Digest: 8yZP0/ndm8PgUc3PchJdNGF7Kwa5FMSfHhKX5Tz9Uks=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/native/pty.spec.
+ js
+SHA-256-Digest: IqA/P9Sktrh5mq6WWYrR3GFGLpsT85szr6GV7oUYAOw=
+
+Name: debug-servers/node_modules/node-addon-api/doc/function.md
+SHA-256-Digest: MGVZ71SZAizSaTSQ6Mb+/fRfjei41zTk5ZkyyK5hdPw=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/Release/.deps/R
+ elease/obj.target/pty/src/native/pty.o.d
+SHA-256-Digest: oUmVVsfddNIjjENptWHCxF+qgxwXnPvyDANY3TSV5mw=
+
+Name: debug-servers/node_modules/mkdirp/test/rel.js
+SHA-256-Digest: pKuNE993uG8bmUkiZOsEkv4iWvtlJ9O7xjX2it3REd8=
+
+Name: debug-servers/node_modules/mkdirp/bin/usage.txt
+SHA-256-Digest: VXXu6nuDlx7YFykEjiS49aVrkCqy4b1D7QMaUC64R1k=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/varManager.js.ma
+ p
+SHA-256-Digest: 7/6tdhhg40cqmzrxLTJK8ItGT/rjEbhJwc0PcI9UBZo=
+
+Name: debug-servers/node_modules/mkdirp/test/return.js
+SHA-256-Digest: i/bBK9m5nG7Lh0e1HrwoIUtJZnfEipBgegJD8IHZdeo=
+
+Name: debug-servers/node_modules/vscode-debugadapter/node_modules/.bin
+ /mkdirp
+SHA-256-Digest: 4hHP5ZEsiZV4VFhLb3ik+vbS052mRCT6lLq7Ax5/eyI=
+
+Name: debug-servers/yarn.lock
+SHA-256-Digest: SrIH+s32lVKTn8B0TkYyFqaAEXh9TK7T5Cms7ttJ8Mg=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/GDBBackend.js.ma
+ p
+SHA-256-Digest: Qcb9+P+oVUdbNdjp4w/G5Osp2AqSpj5gVFqvSnFTEfU=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/GDBDebugSession.
+ js
+SHA-256-Digest: zcx2a60WKi6dODvuE/p0g79oldA3r9WLVafCb75Wze4=
+
+Name: debug-servers/node_modules/node-addon-api/doc/object_wrap.md
+SHA-256-Digest: yxOYonJyDwvtHgLGnWu4RRaLGRGbBw11VA070YTAo5w=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/GDBBackend.js
+SHA-256-Digest: 5WAlm0OsKASKAxtgDAyq3HyabwG7EyZxgpxGeuyC6iM=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/index.d.ts
+SHA-256-Digest: VnsM9QH+jTqdtVTuDDZafsegqRmDlD94tU8NqxYUweE=
+
+Name: debug-servers/node_modules/node-addon-api/doc/Doxyfile
+SHA-256-Digest: ANqo/iOLZveCVNlHZLKtYxvddzi00JxKTmt6niKBwbA=
+
+Name: debug-servers/node_modules/node-addon-api/doc/async_operations.m
+ d
+SHA-256-Digest: BqEPRxy5smELLGXuEfTXvt0nE1Cpibrf0qrdmrHxBW8=
+
+Name: debug-servers/node_modules/node-addon-api/index.js
+SHA-256-Digest: lUSd1tnINRpL/ZYU9yGyxjhfIq6gDsk3QHDn2ebXORE=
+
+Name: org/eclipse/cdt/debug/dap/CDTDebugProtocol$CDTDisassembleArgumen
+ ts.class
+SHA-256-Digest: j1NCkszwqNI5I1mwKy+JkavaIMOdAS2YszTSX6hMNAU=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.debug.dap/pom.xml
+SHA-256-Digest: MvpIcnC1X0ks/nzl2IGBmrgG2emfKT7xtpgZq7D3UUs=
+
+Name: org/eclipse/cdt/debug/dap/InitializeLaunchConfigurations.class
+SHA-256-Digest: 2iY4EcRObe0mnWhGa79a1/GcOGBTUdwgamXq1aM7vlc=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/varManager.d.ts
+SHA-256-Digest: J6ltYK4pj3uIw9WvhTmgzXSh9cCN5uPnqatOVpF6oDI=
+
+Name: debug-servers/node_modules/mkdirp/readme.markdown
+SHA-256-Digest: 9OZKuZbOay19tJGgg6qRGrDNgUXk+MH3U6RbqLA9Z34=
+
+Name: debug-servers/node_modules/node-addon-api/doc/basic_types.md
+SHA-256-Digest: rsd54VuJFj2yOx4WbpDjxUY2PtbnPcWseG4uprdH+vs=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/GDBBackend.spec.js
+SHA-256-Digest: 5cUeOhGCoSdYEmWPAKPD0VNWIIvZ3iYoqLX57GxG710=
+
+Name: debug-servers/node_modules/mkdirp/test/return_sync.js
+SHA-256-Digest: Ab/3IS7KcZqu+GpTNCCpUzOL4VSdYHWgLn5LOJvAwiM=
+
+Name: debug-servers/node_modules/node-addon-api/doc/working_with_javas
+ cript_values.md
+SHA-256-Digest: HFi3L6/srM7fpA3QGPaJ4BreunJbhXlkoaYoXK//Cm8=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/launchRemote.spec.d.ts
+SHA-256-Digest: oL/io+28ivd2b3f4KLHf6wB+A/5s3EQ0z8nNo4cml0s=
+
+Name: debug-servers/node_modules/vscode-debugadapter/thirdpartynotices
+ .txt
+SHA-256-Digest: YoqS5YfPz4QmPISgw8+Bq1+IQCgDyYwDKLLFVVEp+0g=
+
+Name: debug-servers/node_modules/minimist/index.js
+SHA-256-Digest: 4kj3VJru4hzgvFVWBGPzPTpJJ0tKLkFmh5juCXXXf5s=
+
+Name: debug-servers/node_modules/node-addon-api/tools/README.md
+SHA-256-Digest: FW8jhF3SdI2j+PgOoWL0/Xp3GZ5SLAc+6xje1bmUdK4=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/native/pty.spec.
+ js.map
+SHA-256-Digest: livcURr6ZZFk7l46pKyVuElsFmVAVCykuEX4AX+3VO0=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/protocol.js
+SHA-256-Digest: /FLVxSgReTD8cwfIeF643doDJJo0cki63k9ovokfgoc=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/vars_cpp.spec.js.map
+SHA-256-Digest: f3fD9CRkWK5rGoc2cE+hsBuLU186gRmETedZXw+q2sw=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/launch.spec.js
+SHA-256-Digest: qLNthRFZntNoUACjb2LkMT6c6UQz7Lkpnsm8uQnDH28=
+
+Name: debug-servers/node_modules/mkdirp/test/sync.js
+SHA-256-Digest: MHLtHmmZ/Hhc8eZ2Y8OVe2Z/ZGQg8BiOfrEKr4Uofvs=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/var.d.ts
+SHA-256-Digest: y9YhSIxyAyTcTu9D2hJQ7wkJBQEXFr2b/JFKqBNyyjk=
+
+Name: debug-servers/node_modules/node-addon-api/doc/array_buffer.md
+SHA-256-Digest: mwAxbNAEj/r3s8dmBhDZ1AxjIcIXHmPSD1KncI1blNg=
+
+Name: debug-servers/node_modules/mkdirp/test/clobber.js
+SHA-256-Digest: J2R7mzi3jcK58UfKOkURTsOp/MW5oXZshIR1CWr4miM=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/GDBBackend.d.ts
+SHA-256-Digest: 7DXmZHKkEjBRrY5EzAB5dl8R+JH/baUzLV8TzwcatCk=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/GDBTargetDebugSe
+ ssion.js
+SHA-256-Digest: 5CURUJyJSujPQG9xljbJ+drenY0w0jl5+/rbK4Fn5/M=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/breakpoint.js
+SHA-256-Digest: p/b92u/Z0sXxlPxcCl1RkYZVlRV0p7MmnGndkycg38U=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/stop.spec.js.map
+SHA-256-Digest: ETyFTxQrzVfQuBVZB2J5FrY2hSSndC0rHpKm3peTf40=
+
+Name: debug-servers/node_modules/node-addon-api/doc/async_context.md
+SHA-256-Digest: WVoVXZrArKsECfB8kzXNK+DyCwi/jHFhy7gyiKTPvf4=
+
+Name: debug-servers/node_modules/node-addon-api/doc/async_worker.md
+SHA-256-Digest: kECgbtisctD8+XygcTpO30vORsImXLzPaeIWjJ+GC1w=
+
+Name: org/eclipse/cdt/debug/dap/DAPPreferencePage.class
+SHA-256-Digest: YvCIVSgn59E3/Y2uSI3VTgd2FD4zFSBsW0F7UBji/E8=
+
+Name: debug-servers/node_modules/mkdirp/test/opts_fs_sync.js
+SHA-256-Digest: y8GNWco9vvdProa6ZjJXTxkgmJobucw4QXVZGsuqdSw=
+
+Name: debug-servers/node_modules/minimist/test/dash.js
+SHA-256-Digest: k6NPlrGv7V6G5bw9WuBENXLsjGHpA7pqWEZp/Q7vIbs=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/Release/.deps/R
+ elease/obj.target/node-addon-api/src/nothing.o.d
+SHA-256-Digest: V64SxUbMesVl7L5OgeTU4l4eaSlfAS0xcgJ7Q5Z56Mg=
+
+Name: debug-servers/node_modules/minimist/test/short.js
+SHA-256-Digest: tZ1n7ETKdPyqit5zbsmuX2KEilwgjO34HaUeuBijCyE=
+
+Name: debug-servers/node_modules/node-addon-api/doc/type_error.md
+SHA-256-Digest: 7uUgfHZChQi0WtTs1XwC72r4pWWtYirRLEk0VOVehh8=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/evaluate.spec.js
+SHA-256-Digest: isA3ZDXMtipJXTo+9O5eGXadvcvwk+jJQfJ4PghbJtQ=
+
+Name: debug-servers/node_modules/minimist/LICENSE
+SHA-256-Digest: Q1pnIseGsKVvvnOHAo8dnT86LQ+2FbuP7hGHJ8P1m3s=
+
+Name: debug-servers/node_modules/node-addon-api/src/node_api.gyp
+SHA-256-Digest: xHREtlrrFBb2kqyFGgtAOAX2uwrhXawIU4uKxvlsySc=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/varManager.js
+SHA-256-Digest: jr7Idq3GETJwiFDd9Kc4krMmbxpeob97CNZjOlfgOVc=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/install.js
+SHA-256-Digest: Sfo34oIpOjYNVmR0iD5bWzMoKK1Zf4Bxqv+hSTTMcEE=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/attachRemote.spec.js
+SHA-256-Digest: q+NIhufnmhFHiwYk/V/cPIPvWDr1D8V3JtwP1tTajIQ=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/breakpoint.js
+ .map
+SHA-256-Digest: NJOSgJioHFWTz4Vo7bXbal+is04LlOvfzYO71Pf3GX8=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/functionBreakpoints.spec.d.ts
+SHA-256-Digest: L9Go1psBm4hOHhCcd66uP5vKxqqYPLE5r7z9Lh5LA3I=
+
+Name: debug-servers/node_modules/node-addon-api/doc/object_reference.m
+ d
+SHA-256-Digest: EhvKn34vEaFADUxPEPm6qIWNKt6RdJBgPi/A/fyX8vw=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/launch.spec.js.map
+SHA-256-Digest: UeoCcUOFEdHnR7a3SY6ayjJxXV/LdE9ljY0T2JKJyj8=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/debugAdapter.js.
+ map
+SHA-256-Digest: aOT22yshJOhMoW8LMnuCtS02NcyX5eZnaQYQguIf514=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/Release/obj.tar
+ get/pty.node
+SHA-256-Digest: 63VS5eg46h3D83KeHbkfpRRnDDvrv/eL2Nbm82Aaku0=
+
+Name: debug-servers/node_modules/node-addon-api/src/node_internals.cc
+SHA-256-Digest: FVNzPMldQYr0m/tYasndF7ViIogTpQdkq2KK2A0qegg=
+
+Name: debug-servers/node_modules/node-addon-api/doc/function_reference
+ .md
+SHA-256-Digest: VDTBTBtEkCBG1IULDkjdxfYt+983c/m8XROTp66rxQk=
+
+Name: debug-servers/node_modules/node-addon-api/src/node_internals.h
+SHA-256-Digest: KCqTARnajgUBuqXo9+rIs2+49Kv/ft0aPxZgft0GvuY=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/launch.spec.d.ts
+SHA-256-Digest: s6ecRNYGRURmbYZ5rYTI0xP+sMqYFDz1aX1ertnSpmc=
+
+Name: debug-servers/node_modules/minimist/readme.markdown
+SHA-256-Digest: H8n8FY/N7B0NGC3gwYV/YzCQPQyez6scLKe3335eKic=
+
+Name: debug-servers/node_modules/node-addon-api/doc/string.md
+SHA-256-Digest: lILSpd8p+Z1kLQHoFQ4PYxMSecexXujy/tNdgcGF+Hc=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/binding.Makefil
+ e
+SHA-256-Digest: y7BGTodXRc5+seCqLo4ZKeElsQAvbRZRqOQ2WEu4pUc=
+
+Name: debug-servers/node_modules/node-addon-api/doc/class_property_des
+ criptor.md
+SHA-256-Digest: 4yZ78335y3MT82qmWEZ1hRZAcFqShhNoY/FpdNbcE5g=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/launchRemote.spec.js.map
+SHA-256-Digest: MA7491ey/oI8++C+XirFEFro6QXrIlOOCEoB+YF2XYk=
+
+Name: debug-servers/node_modules/node-addon-api/src/node_api.h
+SHA-256-Digest: Bhw/Oi2AfVF+mf0P5ophGdQuLHobvagZWs/4iMEEh5w=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/mem.spec.d.ts
+SHA-256-Digest: s6ecRNYGRURmbYZ5rYTI0xP+sMqYFDz1aX1ertnSpmc=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/Makefile
+SHA-256-Digest: l6ifGNmk8XfmltoGBEWrqFowVtCWrdi/wvpWp4iIn4M=
+
+Name: debug-servers/node_modules/node-addon-api/doc/property_descripto
+ r.md
+SHA-256-Digest: gPidL2cEyR9rMX2cyeDNoAlITJebXsAuLWXWM0eZgo8=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/Release/pty.nod
+ e
+SHA-256-Digest: 63VS5eg46h3D83KeHbkfpRRnDDvrv/eL2Nbm82Aaku0=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/base.d.ts
+SHA-256-Digest: wa2rhzQ4VfwsGhvabRayz/dK7eY6y8jAue+npDnp7M8=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/exec.js.map
+SHA-256-Digest: IjxOtd/8FPDb9r4dUKOSSUUbpC/EaMGwv4c3jYUrg/I=
+
+Name: debug-servers/node_modules/vscode-debugadapter/LICENSE.txt
+SHA-256-Digest: Pq12uOjlR+8FpCbbGJxYT8xoHgLbh83Au6WbgypaU2A=
+
+Name: debug-servers/node_modules/node-addon-api/doc/symbol.md
+SHA-256-Digest: fo4Tcqgkzv2pmfAggQNmQOVc/pbN6u44uviTKNfmU7k=
+
+Name: org/eclipse/cdt/debug/dap/ICDTDebugProtocolServer.class
+SHA-256-Digest: RlWPAGb2vLKcs+ND30Z2M34XZlg5/4wm6mqUMkyXT64=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/index.js
+SHA-256-Digest: 6UFhfZh0EsAMCt+61qGuvTSDwmjb6/VtXP7s01Ilx2s=
+
+Name: debug-servers/node_modules/mkdirp/package.json
+SHA-256-Digest: zhzBMMEnfR83uPtlh7l1x4H24Nj0jxgvaO/lU2FkCwk=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/diassemble.spec.js.map
+SHA-256-Digest: 9SedecB9Tpr/JpVytbEEqFrWdTAtFqcIibqTOYmWzvU=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/handles.js
+SHA-256-Digest: 1z0kNP+9yYGxQ7bBFjHm0muBscfYcJQitMpc4fnz3ds=
+
+Name: debug-servers/node_modules/node-addon-api/doc/callbackinfo.md
+SHA-256-Digest: RcwSH4mfEP1OcCqAVTM/Nt85i2GF4elmdUVT/W+zzy4=
+
+Name: debug-servers/node_modules/node-addon-api/doc/typed_array.md
+SHA-256-Digest: ysIenAObOPzBZcLRkFR/rc85l7rHv9XysBGnPWQuxag=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/logpoints.spec.js.map
+SHA-256-Digest: cAj1oNyZ/BEMp6qVRE7zuPmhBKJUY2VydvvNPa7fEis=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/debugTargetAdapt
+ er.js
+SHA-256-Digest: g1zyp6zKYZL1DN2noTSv4I70J69yHxfmX/N1i8DJRU4=
+
+Name: debug-servers/node_modules/.bin/mkdirp
+SHA-256-Digest: UAT0P7kKF2tpnVM+sT8b8LZoWXRVLQ6h8aRX+Dv1OEY=
+
+Name: org/eclipse/cdt/debug/dap/DapDisassemblyBackend.class
+SHA-256-Digest: zQdf5rCsZZD+fA/l4FecS6SclovTnw+2q8adKbVOlvg=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/breakpoints.spec.d.ts
+SHA-256-Digest: L9Go1psBm4hOHhCcd66uP5vKxqqYPLE5r7z9Lh5LA3I=
+
+Name: debug-servers/node_modules/vscode-debugprotocol/lib/debugProtoco
+ l.js
+SHA-256-Digest: cIEorHFeGyB9qIQIVxFXw/WWB5FXKcwekR7bgmpPV0k=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/exec.d.ts
+SHA-256-Digest: ica9kY3HJ9LvG7ctgh5o30I0sDuhSrnasShpYc+ENrQ=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/GDBBackend.spec.js.map
+SHA-256-Digest: KMArRykTM0ddqGhS3TAMvSAa9aDWn078DqYdMLI5g54=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/debugClient.js.map
+SHA-256-Digest: qisBab0VGgkhZyM1ku7YeVcKw4ef2HJWEXb94aT05mo=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/GDBDebugSession.
+ js.map
+SHA-256-Digest: AlAaIFxpGTmw6RQ0w2/97vyve0DMwshiZOCMpkV6l7Y=
+
+Name: debug-servers/node_modules/node-addon-api/napi.h
+SHA-256-Digest: FCUT6XRhX6PBGKlGCI3UuXDkfHMPfxaw01IQy4LGQhA=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/NOTICE
+SHA-256-Digest: EKVUdZ0MS/anKtpZm1Da8xlZiD92ObY1v94JXDdf720=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/data.d.ts
+SHA-256-Digest: 9nJo2kh5cJIvsVVcsaFOhYEhrO3eYB8QUrgThgo0nzk=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/MIParser.js.map
+SHA-256-Digest: MuLt4sVtfI7Rh6bwdMD0aTOFOgurUlIPtzc7TA+zz6c=
+
+Name: org/eclipse/cdt/debug/dap/Activator.class
+SHA-256-Digest: H2QWLo/5Ja28ulDp3uqB2r2WTU6U1XHdNqvxSXXL0kM=
+
+Name: debug-servers/node_modules/node-addon-api/doc/boolean.md
+SHA-256-Digest: KchV+7EuJKtbRz0mIQtm53H3WsF6CYw68tEezFUT9jk=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/index.js.map
+SHA-256-Digest: vb2ZoCHfJA+bS7DYlkalSG++4hus2kw4zsBNfcyFZgU=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/vars_cpp.spec.js
+SHA-256-Digest: QFCAZAGpwces0wGyr+Qz17u6++gJRX5NhuOsMeqUeTY=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/data.js.map
+SHA-256-Digest: aRG+iW169frhycq74n+PGx1RbVeUS96/cVWXQIvxYjs=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/var.js
+SHA-256-Digest: g7fZnJVJMHOvJi14ISZ3GPERDInES4DdBQ2mOzYsCQA=
+
+Name: debug-servers/node_modules/mkdirp/test/perm.js
+SHA-256-Digest: A8jBm4WTuxjem5mycf56sm+/xPzZ/K2iAIOahz90hbE=
+
+Name: debug-servers/node_modules/mkdirp/test/root.js
+SHA-256-Digest: H3Je7MbtYdGlLGtwOzDuggWvpwQpmswL0nL7QIrzxeI=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/mem.spec.js.map
+SHA-256-Digest: MBLCDBWYnn/MftVMBalwUiZbBQpRXuxJHLMQOJqcjQo=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/utils.js
+SHA-256-Digest: XkIHip7als6y8CB0A9mOyPzm53c2v6igOf8gk5d13oc=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/README.md
+SHA-256-Digest: tEnGh3j61xvATFgVMFGMiOOmktFt18K/9dY6nJ07eqQ=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/target.js.map
+SHA-256-Digest: t/8ESgugkxAY4gRhwlzF9TpKkVyGT26f70TrQR5k6ME=
+
+Name: debug-servers/node_modules/vscode-debugprotocol/LICENSE.txt
+SHA-256-Digest: Pq12uOjlR+8FpCbbGJxYT8xoHgLbh83Au6WbgypaU2A=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: oCy5OwZz4iDChxmBep9CwwvfSPUMdhXywB2Iu2i9aOc=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/native/pty.js.ma
+ p
+SHA-256-Digest: poVbgMz39P6Dnxmya94XSl1Mqii8w/CmdDqlMNOO1JU=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/functionBreakpoints.spec.js.map
+SHA-256-Digest: dHPtCoVhzI9o4OJkP7UjySic1jrntF/oM5UrmP7E2BM=
+
+Name: debug-servers/node_modules/node-addon-api/doc/cmake-js.md
+SHA-256-Digest: HfHVR4KrojJz8ex3r6BfUPKmQuzRaNgLT6LfXBFN7SY=
+
+Name: org/eclipse/cdt/debug/dap/MemoryBlock.class
+SHA-256-Digest: L+xXVcRql310TjvlB1RdBkSyX4R5sxKz5tZzl1HWDt8=
+
+Name: org/eclipse/cdt/debug/dap/ICDTDebugProtocolClient.class
+SHA-256-Digest: qsItlYQDLSi/F8mvFyRCLx+JEOgbloLuYQNT6X2V0y0=
+
+Name: debug-servers/node_modules/node-addon-api/src/nothing.c
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: debug-servers/node_modules/minimist/example/parse.js
+SHA-256-Digest: 5I0se3V3IY2FC3fzbzjEbfnlR8lfQxfX/K+ajJYRnOg=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/Release/.deps/R
+ elease/node-addon-api/src/nothing.a.d
+SHA-256-Digest: p/WGSB4Ho4gTQoKFg2P1vycWD3A53YDJuTHF9CGSpCc=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/evaluate.spec.js.map
+SHA-256-Digest: rJg5VBztLNLc57oSvD2NssHStT8hni1WSVm5sMrH654=
+
+Name: debug-servers/node_modules/node-addon-api/doc/node-gyp.md
+SHA-256-Digest: B2vuW1B94uiq9ssRhmSEw3Eww5PZemPnK6gnUGASSk0=
+
+Name: debug-servers/node_modules/node-addon-api/doc/threadsafe_functio
+ n.md
+SHA-256-Digest: 8v3F8WEYX9K5KvyFaIa5gHJLq4Fn2TNUfnSTDyvZW0I=
+
+Name: debug-servers/node_modules/node-addon-api/README.md
+SHA-256-Digest: LJMz9w2vgODbab99XmvQIWpnKqOa98emcPVhtMpp7aY=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/GDBDebugSession.
+ d.ts
+SHA-256-Digest: x3Sq/8+EMg65hgXt/xpl0yZTWKlHpiAz06izdO8H6A0=
+
+Name: debug-servers/node_modules/mkdirp/test/race.js
+SHA-256-Digest: qM5pv9xlvtwP+n+hUU8h1ol6q16eO98O0oRKAqmTlx0=
+
+Name: META-INF/maven/org.eclipse.cdt/org.eclipse.cdt.debug.dap/pom.pro
+ perties
+SHA-256-Digest: dzC7GlLjqY014/ztz0MRsr6IDbXr0vxFXF8Ko3scbZU=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/debugClient.d.ts
+SHA-256-Digest: Q05+keIE/L/9MU/OS75Gin5hanIzJl2rREtg6txIVkI=
+
+Name: org/eclipse/cdt/debug/dap/CDTDebugProtocol$MemoryContents.class
+SHA-256-Digest: MkDR9GaJFF+4bDMfvcq90t0Y9rsgo5A02b7uJyaY6zA=
+
+Name: debug-servers/node_modules/mkdirp/test/mkdirp.js
+SHA-256-Digest: xIZouPMVimNt4ed1LgIIHYQURc/AfRfVVsgT8XDP8aM=
+
+Name: debug-servers/node_modules/node-addon-api/doc/env.md
+SHA-256-Digest: EGWVrZAOJxnAPOnnfeasauASJKCBvCOdgdVsveqiKJY=
+
+Name: debug-servers/node_modules/node-addon-api/src/util.h
+SHA-256-Digest: n6xbzeM6t4JfpuYtuqz/z42gn1Lnfgu2uo0M+OOmbMg=
+
+Name: debug-servers/node_modules/node-addon-api/doc/value.md
+SHA-256-Digest: G7zGU324ujAAZmARfG1+X/oMaARvXp81UVUf0EPI7Gs=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/GDBTargetDebugSe
+ ssion.d.ts
+SHA-256-Digest: jv5VlpmXtKZDqKU1WsE8DXjGFbAzFfbrE5kqTJz0kPw=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/stack.js.map
+SHA-256-Digest: P1oZnq+rtNPljVg1yWG+CfnIhF7UEQYAD4ypG/wcPv4=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/main.js
+SHA-256-Digest: HxVPGOnlR/+RiIkvCVo57qw+W2BIyCsPKC8W+0CN0n8=
+
+Name: debug-servers/node_modules/node-addon-api/doc/number.md
+SHA-256-Digest: m1XmP35pSUDY6+Wbjb9SsJ1Vh+Escm1egItUwL1Fs88=
+
+Name: debug-servers/node_modules/vscode-debugprotocol/README.md
+SHA-256-Digest: qpYoiIQNnxBvBM4khQy9FunD9tmFk3xOvSKrHdxXnD8=
+
+Name: org/eclipse/cdt/debug/dap/DapLaunchDelegate.class
+SHA-256-Digest: 5N8Dl3wT2vq/JVWYHbKU7igXXLv7/2lGsM4P79NSxhw=
+
+Name: debug-servers/node_modules/node-addon-api/external-napi/node_api
+ .h
+SHA-256-Digest: xGlqICIUV0AiHljzv0vLXAQt4dku1mNIIE93VOlWlsA=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/utils.d.ts
+SHA-256-Digest: NZesltKcLRbawslkNyMbCfvvG2mG8omPZumHCLEz0oY=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/launchRemote.spec.js
+SHA-256-Digest: EtDpHc1mdxUSXXVRmeS3T55A4yx5yjUmGExfitNmXj8=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/var.spec.js.map
+SHA-256-Digest: qYQ3Ig/Q+pF5kIP8Karfq0LcTOwdK7Sfg1OcxdR4NlQ=
+
+Name: debug-servers/node_modules/mkdirp/test/umask.js
+SHA-256-Digest: MCsxkBqJr2W/Z4/6/RJK4b/c6apciwgsY/9iVnfsZQc=
+
+Name: debug-servers/node_modules/mkdirp/bin/cmd.js
+SHA-256-Digest: JLAovMsXc/As8ND7PcpUaPG10ioGy8XL81Hh6zrM77E=
+
+Name: debug-servers/node_modules/node-addon-api/doc/creating_a_release
+ .md
+SHA-256-Digest: cqo0MxFDge2q7e6lBkOLgbzkc1bHHUj3MxI+IXCXkmQ=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/var.spec.js
+SHA-256-Digest: 6qPM92DD9DAIeqlcnCFP8M6O+0AIEiOnK3GvySxCdAU=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/messages.js
+SHA-256-Digest: bujopVFtPL4wVDJs61K49e7uxQrFwHoshiwLmU2JLpU=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/debugAdapter.js
+SHA-256-Digest: WCNQ0ZsBiZEcWrzOHMFuYVw3IgBrdhJkHfi+AohDGNs=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/node-addon-api/src/no
+ thing.target.mk
+SHA-256-Digest: 60yl5RFr9A7MASZSOu9tNkY2+3ijiyQAVot6kUprtpo=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/index.js
+SHA-256-Digest: g+UcHJ3FjyzXnG8Q6mRFgDkWI8qdoOy0nnr87jTMSQ0=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/utils.js.map
+SHA-256-Digest: zwNNcSxbM+du+TqwcTXqglXg1zqcAhpQOkf/L/VJdUU=
+
+Name: debug-servers/node_modules/.yarn-integrity
+SHA-256-Digest: 0nc9IwqzHaq3lPVBL1mgR3qYhbHfJizsKYM7bH8d3HE=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/package.json
+SHA-256-Digest: rNAU5yyk4BWVVxCUgmARBlzNFlEb+j4S4dP1kxPcgBM=
+
+Name: debug-servers/node_modules/node-addon-api/doc/object_lifetime_ma
+ nagement.md
+SHA-256-Digest: mWQ+vzMPf2cxp51wsefHYZ9VV0uOH+nmdR7q4iBlZHw=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/debugSession.
+ js
+SHA-256-Digest: xm/Oi7fv7EJos0/8jbzD2UxjO//CdV4C180jgRkvVUE=
+
+Name: debug-servers/node_modules/node-addon-api/doc/checker-tool.md
+SHA-256-Digest: AtfjmkWzldpihITSpyFBh2Pp7ETmVqx0UQeqYz0Pkxk=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/logpoints.spec.js
+SHA-256-Digest: bY5mjBF3sB1PLTCYOVzTCfctZoOj9p7nAz18+XXtU1E=
+
+Name: debug-servers/node_modules/node-addon-api/.editorconfig
+SHA-256-Digest: XoVD370q0zrIrxYxfcq/8Szrz1+90to9gVLy7Wj6Umk=
+
+Name: about.properties
+SHA-256-Digest: CkGkGvdeirjDNeoIOeHlbyhUMN7ChSM3XPZm2rFAkWI=
+
+Name: debug-servers/node_modules/node-addon-api/doc/buffer.md
+SHA-256-Digest: wty0ENe/sqjxwkquOUHcorSovYHM5DgYyg/NNULh91E=
+
+Name: debug-servers/node_modules/mkdirp/.travis.yml
+SHA-256-Digest: J/mCImHIKMCk7FiPK/4bH60PB7n8/wa7y65eI7EVKyk=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/var.spec.d.ts
+SHA-256-Digest: yKEMh6i8w6xLKsFBcz9AfvdHAWmJMfwlgbAX63dwrWs=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/thread.js
+SHA-256-Digest: IoVK6oiZwx+cwlpCX0tt4TJKMXz606XIdJsweaGOQsg=
+
+Name: debug-servers/node_modules/node-addon-api/doc/error.md
+SHA-256-Digest: sSMPz6oVdrsL0dsYQC2RxpAWzg38saSNDvGmBDZW5Tg=
+
+Name: org/eclipse/cdt/debug/dap/tabs/CMainTab.class
+SHA-256-Digest: Q8ws2F2hfMNiuo+TnDnVoChLIEceGdpeh1i7HyO8V6o=
+
+Name: cdt_logo_icon32.png
+SHA-256-Digest: bWwzDnvM84UiLAmeNCIDo+lMNpfX5YiRcIC7LOXGPSY=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/thread.d.ts
+SHA-256-Digest: 5g54hpGOcMpWCgG+oLwG0YnZMd95If29xSrxjusZz+0=
+
+Name: debug-servers/node_modules/node-addon-api/doc/external.md
+SHA-256-Digest: jfFQj9EZsYh4LToQ/Pkz113uQQWHLtsA2lcdW9ilqOU=
+
+Name: org/eclipse/cdt/debug/dap/tabs/CArgumentsTab.class
+SHA-256-Digest: j/+yPwMFuJTb/uE63/Z0e4ReFpewLtLCN9OxjmzpoUU=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/debugSession.
+ d.ts
+SHA-256-Digest: 2iTJBrRAopUvdypf/gcvwW9XKtJsfQkugdUT0OIZSvM=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/src/native/scoped_fd.
+ h
+SHA-256-Digest: vktEPf1wzU3ZCLUX6OrnKsuKvbwv8u8k6+7Swf282eo=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/handles.d.ts
+SHA-256-Digest: PoGLiZYwEk3TTfEYo9ZI4uRrzxx88MgwtdtEL3MMTGs=
+
+Name: org/eclipse/cdt/debug/dap/DapLaunchDelegate$1.class
+SHA-256-Digest: izlplxiVnxUipmomwvRQzFDz2aQlsoivMlU6y7vcX7U=
+
+Name: debug-servers/node_modules/mkdirp/examples/pow.js
+SHA-256-Digest: JqVEg/n1iqDdrFPHHdwRJXATY1hL9jnCQaztI0OF3j4=
+
+Name: debug-servers/package.json
+SHA-256-Digest: 7I/0eIthUvRtRgwt/Rdn6ihykkvo+vA8QXo68HrqG2o=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/base.js
+SHA-256-Digest: OgwAbFPLnXeTy970+D/5587bRv1YSsroG1f83RcheSw=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/base.js.map
+SHA-256-Digest: 1b0viBztbtyPKlRWGufPwYiffmaxHIGyrBjQImlBC8o=
+
+Name: debug-servers/node_modules/node-addon-api/doc/reference.md
+SHA-256-Digest: sSmbuuUd+udTejHGzmGzvS1dkbwpRUoBhJxEtgzWUtk=
+
+Name: org/eclipse/cdt/debug/dap/PreferenceConstants.class
+SHA-256-Digest: gs2O9ioGAqaqkiXYkHAP7fPjGqRwGMyy0jRKv+Y/my8=
+
+Name: debug-servers/node_modules/minimist/test/default_bool.js
+SHA-256-Digest: fjiLQGDgFUVbnoTwNHgzrXIcd9nPoWohRB8W2Q3i8Po=
+
+Name: org/eclipse/cdt/debug/dap/CDTDebugProtocol$MemoryRequestResponse
+ .class
+SHA-256-Digest: bjUzP0QfoumiqhyFWMUyqWoL8vhBK3cWTEpWs7W9QK4=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/logpoints.spec.d.ts
+SHA-256-Digest: L9Go1psBm4hOHhCcd66uP5vKxqqYPLE5r7z9Lh5LA3I=
+
+Name: debug-servers/node_modules/vscode-debugadapter/lib/loggingDebugS
+ ession.d.ts
+SHA-256-Digest: Qw7In7F7a5QtbxrYjVL3Eetd4ItMkN3NPVq1dgEjunM=
+
+Name: debug-servers/node_modules/node-addon-api/doc/range_error.md
+SHA-256-Digest: 37d3rDN4ODffkt1vqeiyNJStWEKxFGM0DPq94UCGed4=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/stop.spec.d.ts
+SHA-256-Digest: jmCbtxwguFjHfw6fkLsTGduEd7E/n5ZfGh4YUkv1CIE=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/index.d.ts
+SHA-256-Digest: i978NpU+2gp9k8kQ8yYNJuYLoxOLm0jGrNSkqH0d28Y=
+
+Name: debug-servers/node_modules/node-addon-api/CHANGELOG.md
+SHA-256-Digest: 8J1nIKrYRZt3mxkn0qmHMrsOKpMUxgiTX3PEe3r4XMk=
+
+Name: debug-servers/node_modules/node-addon-api/.travis.yml
+SHA-256-Digest: 5ih69wfDZKIvY5waDi3DJ8rXs+FB2rXRtZtZQoTCVVs=
+
+Name: debug-servers/node_modules/node-addon-api/doc/prebuild_tools.md
+SHA-256-Digest: 4XKN8EBi7ZkMZEngzTdicXGeBZNac/Rl7WYQFM/xKCc=
+
+Name: debug-servers/node_modules/mkdirp/test/opts_fs.js
+SHA-256-Digest: beZGeZ/kwYVkAfLuvls/NHuSfaibPje+YeHlOr9DxrM=
+
+Name: debug-servers/node_modules/mkdirp/index.js
+SHA-256-Digest: bk9dbSa68ZTPS7tNghEARu1iFSBbQSxXp7UJfcFiPqw=
+
+Name: debug-servers/node_modules/node-addon-api/doc/callback_scope.md
+SHA-256-Digest: gEEuEkt5TQjNogZ91AuIxhmZ4sdpsiJwrxzsgKfiPWY=
+
+Name: debug-servers/node_modules/mkdirp/test/umask_sync.js
+SHA-256-Digest: 0yvjPg9p6by5dcyhKRJaMEPXaWMahYPPffikoBK2X3I=
+
+Name: debug-servers/node_modules/minimist/package.json
+SHA-256-Digest: fmdybVLnv6WkrWLuZ35JK6LLoobkwPp8S2FrHIO/w8s=
+
+Name: debug-servers/node_modules/node-addon-api/doc/object.md
+SHA-256-Digest: A1dcRVPPSA2fRtSLF//VxYvsr1CU9y2sXdS25I1ZU2A=
+
+Name: debug-servers/node_modules/node-addon-api/doc/setup.md
+SHA-256-Digest: rg0Tscv7jYo9XNerdWekmNwD2o5pF3elIzyr7o/AXdo=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/debugTargetAdapt
+ er.js.map
+SHA-256-Digest: 8ljUFysNizNLibKytMryggDq3Kzl0rfoJvnmLDG+qwc=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/var.js.map
+SHA-256-Digest: QIMp2pbTgyva3UT/W3onphvhZur/RkmtTUsu3ANKfxg=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/MIParser.d.ts
+SHA-256-Digest: tjtwYbd+3cHrif1I7Axec/wRN5Y6qdGXLRfWawrw/1o=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/diassemble.spec.js
+SHA-256-Digest: 7Qur1bKxmz4xwJV62I8KdxTlxXyL0FKimyu7iC9ENpM=
+
+Name: debug-servers/node_modules/node-addon-api/doc/error_handling.md
+SHA-256-Digest: OLkgpByMvI2csEaPbZd1GTiwdTjjZR9jaB99k3oWDWQ=
+
+Name: org/eclipse/cdt/debug/dap/Messages.properties
+SHA-256-Digest: f09T/Pk3sO3br+bqJgyCA439MqU8ZVxvkrGHz2ny4Nw=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/src/native/pty.cc
+SHA-256-Digest: 3/q9b+a7wpIdxWH112Fmo+DJeib//p0KYPx7KfeobrU=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/Release/.deps/R
+ elease/nothing.a.d
+SHA-256-Digest: mI004dc95duvTFvK7pEaUNb0m8hKzaQNpbL9v36gHLk=
+
+Name: org/eclipse/cdt/debug/dap/DapDebugTarget.class
+SHA-256-Digest: wCKMvXTimEt525p0NYDprm5DHcLoNUNjnS0ax1pyvCU=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/Release/obj.tar
+ get/node-addon-api/src/nothing.o
+SHA-256-Digest: zfon7wiIQqslNiexSj7t1AyT6Zqs+6kJbEEprdn3bS0=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/native/pty.d.ts
+SHA-256-Digest: IFJiWsh1s1k/9cELCtFqbfynx/3rN7cqSASm3gga9fA=
+
+Name: debug-servers/node_modules/node-addon-api/napi-inl.deprecated.h
+SHA-256-Digest: ownM32ZwN22Li2NQD6tv8gYdeTKq2BmywPQGazytWMc=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/debugAdapter.d.t
+ s
+SHA-256-Digest: jmCbtxwguFjHfw6fkLsTGduEd7E/n5ZfGh4YUkv1CIE=
+
+Name: about.html
+SHA-256-Digest: 7mbS+ztMDS7S5/aYvJ7U49bPd/pcr0CtAylhJdsaxfA=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/breakpoints.spec.js.map
+SHA-256-Digest: QMMWaoqiPbObdvBTneneSC1jOKzVN/xuXfqRtjmGT+g=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/node-addon-api/src/no
+ de-api.target.mk
+SHA-256-Digest: CIwg9WlQYo+wNB1Eil/t6s2fQxS7sOIZgNxI54r0lVI=
+
+Name: debug-servers/node_modules/node-addon-api/doc/dataview.md
+SHA-256-Digest: oUeYfjygaGBXkO91t7vlGElOOCGbStFIFJ48KWJHJCs=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/stoppedEvent.d.t
+ s
+SHA-256-Digest: 80tEUGb3LR0c+KuEaj87yUymiVwZBN8C8N8E17V6vUw=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/Release/.deps/R
+ elease/pty.node.d
+SHA-256-Digest: nrd3Hz/CjYMUcFxaDaHcMTkrqtaLKrvQrxz0HrurjI8=
+
+Name: debug-servers/node_modules/node-addon-api/LICENSE.md
+SHA-256-Digest: T89pu+y5meyPoOzmK8iTS3zdRQYawaixk5oJvmTNQ1I=
+
+Name: org/eclipse/cdt/debug/dap/CDTDebugElement.class
+SHA-256-Digest: O93J4lhgDeNXVBwMPwlaaSM1DZ8KpSTdG8pTMhb0kpM=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/build/Release/nothing
+ .a
+SHA-256-Digest: N5HW4k2poDRjqbybbkhYVWsJ5MS/czpXZATdro726sI=
+
+Name: debug-servers/node_modules/mkdirp/test/perm_sync.js
+SHA-256-Digest: 1B7hUrMebnSFy5IP7QCJ4CIkgWZxaZMTBNBA9bZI1Mw=
+
+Name: debug-servers/node_modules/node-addon-api/package.json
+SHA-256-Digest: 6cPE55y2yWFeX/87Ad/UO7Px8buXW1Wv8t7LjxJKlZw=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/attachRemote.spec.d.ts
+SHA-256-Digest: oL/io+28ivd2b3f4KLHf6wB+A/5s3EQ0z8nNo4cml0s=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/MIParser.js
+SHA-256-Digest: F7eUYlgKMIdwtYugjP8l+LiXmRifSFq22DpD/q+E0II=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/LICENSE
+SHA-256-Digest: chwtoldXi6zjMysU2OoGZD19JnU+fvJag3tOkE7cC/U=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/integration-test
+ s/mem.spec.js
+SHA-256-Digest: MWoGcm72T6iwuL+kpUMJPwSHa3cVegG5klKNTYuRMU4=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/mi/stack.js
+SHA-256-Digest: aNPUd+LO+2WyRIchYJLBjTyI3+EwFvDGmQblPNwtGOI=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/debugTargetAdapt
+ er.d.ts
+SHA-256-Digest: jmCbtxwguFjHfw6fkLsTGduEd7E/n5ZfGh4YUkv1CIE=
+
+Name: debug-servers/node_modules/cdt-gdb-adapter/dist/native/pty.spec.
+ d.ts
+SHA-256-Digest: jmCbtxwguFjHfw6fkLsTGduEd7E/n5ZfGh4YUkv1CIE=
+
